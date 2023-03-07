@@ -1,0 +1,49 @@
+html, body, div, p {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+  background-color: rgb(230,230,255);
+}
+
+#topNum {
+    font-size: 8em;
+}
+
+/* #numArea {
+    padding-top: 200px;
+    padding-left: 500px;
+    font-size: 25em;
+}  */
+#numArea {
+    position: fixed;
+    top: 200px;
+    left: 500px;
+    font-size: 25em;
+}
+.smaller {
+    font-size: 0.5em;
+    transition: 2s;
+}
+#messages {
+  text-align: center;
+  position: fixed;
+  top: 20px;
+  left: 290px;
+  background-color: black;
+  color: white;
+  width: 55%;
+  height: 145px;
+  font-size: 4em;
+  visibility: hidden;
+  border-radius: 10px;
+  padding: 1%;
+
+}
+
+.moving {
+    transform: translate(-590px, -95px);
+    font-size: 0.1em;
+    transition: 2s;
+}
